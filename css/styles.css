@@ -2,6 +2,12 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
+
+* {
+  /* 테두리를 기준으로 크기를 정한다. */
+  box-sizing: border-box;
+}
 
 body {
   background-color: white;
