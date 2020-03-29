@@ -6,6 +6,7 @@
 
 * {
   /* 테두리를 기준으로 크기를 정한다. */
+  /* padding을 해줘도 전체 box size는 변함이 없다. */
   box-sizing: border-box;
 }
 
