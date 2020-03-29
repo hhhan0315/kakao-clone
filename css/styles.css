@@ -6,6 +6,7 @@
 @import "friend.css";
 @import "friends.css";
 @import "find.css";
+@import "more.css";
 
 * {
   /* 테두리를 기준으로 크기를 정한다. */
