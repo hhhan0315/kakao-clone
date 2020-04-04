@@ -1,0 +1,32 @@
+.aside {
+  width: 75px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ececed;
+}
+
+.aside__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.aside__list .aside__list-item {
+  margin-bottom: 20px;
+}
+
+.aside__list .aside__list-link {
+  cursor: pointer;
+}
+
+.aside__list i {
+  font-size: 35px;
+  opacity: 0.6;
+}
+
+.aside__list i:hover {
+  opacity: 1;
+}
