@@ -8,89 +8,63 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Friends | Kakao clone</title>
+    <title>Friends | Kakao-clone-v2</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
-      </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-minus"></i>
+        <i class="far fa-square"></i>
+        <i class="fas fa-times"></i>
       </div>
     </div>
     <header class="header">
-      <div class="header__header-column">
-        <h1 class="header__title">Friends</h1>
+      <div class="header__column">
+        <h1 class="header__title">친구</h1>
+        <!-- <i class="fas fa-caret-down"></i> -->
       </div>
-      <div class="header__header-column">
+      <div class="header__column">
         <span class="header__icon">
-          <i class="fas fa-search"></i>
+          <!-- <i class="far fa-comments"></i> -->
+          <i class="fas fa-user-plus"></i>
         </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
+        <!-- <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span> -->
       </div>
     </header>
-    <main class="friends">
-      <header class="friends__header">
-        <div class="friends__friend friend">
-          <div class="friend__column">
-            <img
-              src="images/snowman.png"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
-            <div class="friend__content">
-              <span class="friend__name">
-                Seung Rae Han
-              </span>
-              <span class="friend__status">
-                good day
-              </span>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="friends__plus">
-        <h5 class="friends__title">Plus Friend</h5>
-        <div class="friends__friend friend">
-          <div class="friend__column">
-            <img src="images/snowman.png" alt="" class="friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                Plus Friend
-              </span>
-            </div>
-          </div>
-        </div>
+    <main class="chats">
+      <div class="chats__find-container">
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="이름 검색"
+          class="chats__find-input"
+        />
       </div>
-      <ul class="friends__list">
-        <h5 class="friends__title">Friends 1</h5>
-        <li class="friends__friend friend friend--large">
-          <div class="friend__column">
-            <img src="images/snowman.png" alt="" class="friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                nomad
-              </span>
-              <span class="friend__status">
-                hi
-              </span>
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img src="images/proflie.jpg" alt="" class="friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    seungrae
+                  </span>
+                  <span class="friend__bottom-text">
+                    안녕
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="friend__timestamp">
+                  오후 9:07
+                </span>
+              </div>
             </div>
-          </div>
-          <div class="friend__column">
-            <div class="friend__now-listening">
-              <span>
-                Blueming - IU
-                <i class="fas fa-play"></i>
-              </span>
-            </div>
-          </div>
+          </a>
         </li>
       </ul>
     </main>
@@ -103,12 +77,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search"></i>
+            <i class="fas fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
@@ -117,9 +86,28 @@
           </a>
         </li>
       </ul>
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="#" class="nav__list-link">
+            <i class="far fa-smile"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__list-link">
+            <i class="far fa-calendar-check"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__list-link">
+            <i class="far fa-bell"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__list-link">
+            <i class="fas fa-align-justify"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
-    <div class="bigScreen">
-      <span class="bigScreen__text">Please make your screen small.</span>
-    </div>
   </body>
 </html>

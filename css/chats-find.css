@@ -1,0 +1,17 @@
+.chats {
+  margin-top: 15px;
+}
+
+.chats .chats__find-input {
+  border: 1px solid #f6f7f7;
+  background-color: #f9f9f9;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.chats .chats__find-input:focus {
+  outline: none;
+  border: 1px solid #909297;
+}
