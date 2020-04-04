@@ -5,9 +5,9 @@ HTML, CSS만을 사용해서 카카오톡 데스크탑의 UI를 구현해보는 
 Kakao clone coding in Nomad Coders Academy<br>
 This is a project to implement Kakao desktop UI using only HTML and CSS.<br>
 
-# 사용 기술
+## 사용 기술
 - HTML
 - CSS
 
-# 결과물
+## 결과물
 https://hhhan0315.github.io/kakao-clone<br>
