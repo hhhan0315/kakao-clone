@@ -70,36 +70,31 @@
           </span>
         </div>
       </header>
-      <main class="chats">
+      <div class="find-container">
         <input
           type="text"
           name=""
           id=""
           placeholder="이름 검색"
-          class="chats__find-input"
+          class="find-input"
         />
+        <div class="find__left-icon">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <main class="chats">
         <ul class="chats__list">
-          <li class="chats__chat chat">
-            <a href="chat.html">
-              <div class="chats__chat friend">
-                <div class="friend__column">
-                  <img src="images/proflie.jpg" alt="" class="friend__avatar" />
-                  <div class="friend__content">
-                    <span class="friend__name">
-                      seungrae
-                    </span>
-                    <!-- <span class="friend__bottom-text">
-                      안녕
-                    </span> -->
-                  </div>
-                </div>
-                <!-- <div class="friend__column">
-                  <span class="friend__timestamp">
-                    오후 9:07
+          <li class="chats__chat-column">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img src="images/proflie.jpg" alt="" class="friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    seungrae
                   </span>
-                </div> -->
+                </div>
               </div>
-            </a>
+            </div>
           </li>
         </ul>
       </main>

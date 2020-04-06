@@ -2,9 +2,11 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
-@import "chats-find.css";
+@import "find.css";
 @import "friend.css";
 @import "aside.css";
+@import "chats.css";
+@import "option.css";
 
 html,
 body {
