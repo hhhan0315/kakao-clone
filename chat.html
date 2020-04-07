@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/58d1204f22.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>chat | Kakao-clone</title>
+  </head>
+  <body class="chat-body">
+    <div class="chat-wrap">
+      <div class="status-bar">
+        <a href="index.html">
+          <div class="status-bar__column">
+            <i class="fas fa-arrow-left"></i>
+          </div>
+        </a>
+        <div class="status-bar__column">
+          <i class="fas fa-minus"></i>
+          <i class="far fa-square"></i>
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__column-img">
+          <img src="images/proflie.jpg" alt="" class="friend__avatar" />
+        </div>
+        <div class="header__column">
+          <div class="header__column-sub sub">
+            <h1 class="header__title">seungrae</h1>
+          </div>
+          <div class="header__column-sub sub">
+            <div class="sub__column">
+              <i class="fas fa-home"></i>
+              <i class="fas fa-box"></i>
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="sub__column">
+              <i class="fas fa-bell"></i>
+              <i class="fas fa-align-justify"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="chat-screen">
+        <ul class="chat__messages">
+          <li class="incoming-message message">
+            <img src="images/proflie.jpg" alt="" class="message__avatar" />
+            <div class="message__content">
+              <span class="message__name">
+                seungrae
+              </span>
+              <span class="message__bubble">
+                안녕
+              </span>
+            </div>
+          </li>
+          <li class="sent-message message">
+            <div class="message__content">
+              <span class="message__bubble">
+                뭐해
+              </span>
+            </div>
+          </li>
+        </ul>
+      </main>
+      <div class="chat__write-container">
+        <input type="text" placeholder="채팅 입력" class="chat__write-input" />
+      </div>
+    </div>
+  </body>
+</html>
