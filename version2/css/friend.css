@@ -1,0 +1,31 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__column .friend__avatar {
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.friend__content .friend__name {
+  font-weight: 600;
+}
+
+.friend__column .friend__bottom-text,
+.friend__column .friend__timestamp {
+  opacity: 0.6;
+  font-size: 14px;
+}

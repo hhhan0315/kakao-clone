@@ -1,20 +1,27 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.header__column {
-  display: flex;
-}
-
-.header__title {
-  font-size: 20px;
+.header .header__title {
+  font-size: 24px;
   font-weight: 600;
-  margin-right: 10px;
 }
 
-.header__icon i {
+.header .header__icon {
   font-size: 20px;
-  margin-left: 10px;
-  opacity: 0.7;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 12px;
 }
