@@ -36,4 +36,4 @@ https://hhhan0315.github.io/kakao-clone<br>
 - **Advanced CSS**
   - hover, focus, active, visited를 활용하고 애니메이션을 주고 싶을 때 transition 을 활용해 적용 가능<br> (ex) transition : all 1s ease-in-out
   - transition과 transform의 사용도 유용
-  - Media Quary : @media 로 screen 크기 지정 가능
+  - Media Query : @media 로 screen 크기 지정 가능
